@@ -1,0 +1,8 @@
+.description {
+  color: rgb(246, 242, 237);
+  display: flex;
+}
+
+.description__item {
+  min-width: 100%;
+}

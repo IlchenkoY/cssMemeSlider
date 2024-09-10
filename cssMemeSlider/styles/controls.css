@@ -1,0 +1,17 @@
+.controls {
+  display: flex;
+  gap: 0.5vmin;
+  justify-content: center;
+}
+
+.controls__item {
+  padding: 1vmin;
+  cursor: pointer;
+}
+
+.controls__button {
+  width: 1.7vmin;
+  height: 1.7vmin;
+  border-radius: 50%;
+  background-color: aliceblue;
+}

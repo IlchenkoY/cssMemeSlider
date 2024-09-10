@@ -1,0 +1,17 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 3vmin;
+  max-width: 99rem;
+  overflow: hidden;
+  margin: 0 7%;
+}
+
+.slider__list {
+  display: flex;
+  gap: 9dvh;
+}
+
+.slider__item {
+  min-width: 100%;
+}
