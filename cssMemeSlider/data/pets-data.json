@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Katrine",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-katrine.jpg",
+    "id": 1
+  },
+  {
+    "name": "Jennifer",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-jennifer.jpg",
+    "id": 2
+  },
+  {
+    "name": "Woody",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-woody.jpg",
+    "id": 3
+  },
+  {
+    "name": "Sophia",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-sophia.jpg",
+    "id": 4
+  },
+  {
+    "name": "Timmy",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-timmy.jpg",
+    "id": 5
+  },
+  {
+    "name": "Charly",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-charly.jpg",
+    "id": 6
+  },
+  {
+    "name": "Scarlett",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-scarlet.jpg",
+    "id": 7
+  },
+  {
+    "name": "Freddie",
+    "imgsrc": "/ilchenkoy-JSFEPRESCHOOL2024Q2/img/slider-pets/pets-freddie.jpg",
+    "id": 8
+  }
+]
