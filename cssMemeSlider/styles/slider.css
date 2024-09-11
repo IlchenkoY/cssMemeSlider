@@ -9,9 +9,10 @@
 
 .slider__list {
   display: flex;
-  gap: 9dvh;
 }
 
 .slider__item {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
   min-width: 100%;
 }

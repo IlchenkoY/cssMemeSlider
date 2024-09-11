@@ -43,7 +43,7 @@ function createControlsListMarkup(galleryItems) {
     .map(({ id }) => {
       return `
     <li class="controls__item">
-        <button class="controls__button" data-index="${id}"></button>
+        <button class="controls__button" data-id="${id}"></button>
     </li>`;
     })
     .join("");

@@ -1,10 +1,14 @@
 .controls {
   display: flex;
-  gap: 0.5vmin;
   justify-content: center;
+  align-items: center;
+  gap: 0.5vmin;
 }
 
 .controls__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1vmin;
   cursor: pointer;
 }
