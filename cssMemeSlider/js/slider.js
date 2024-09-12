@@ -46,7 +46,8 @@ function imageSwitcher(id) {
 }
 
 function descriptionSwitcher(id) {
-  const { width: itemWidth } = descriptionList.getBoundingClientRect();
+  const { width: itemWidth } =
+    descriptionList.firstElementChild.getBoundingClientRect();
 
   descriptionList.style.transform = `translateX(${-itemWidth * id}px)`;
   descriptionList.style.transition = "transform 1.2s ease";
@@ -54,7 +55,8 @@ function descriptionSwitcher(id) {
 
 function resizeHandler() {
   const { width: sliderWidth } = sliderList.getBoundingClientRect();
-  const { width: descriptionWidth } = descriptionList.getBoundingClientRect();
+  const { width: descriptionWidth } =
+    descriptionList.firstElementChild.getBoundingClientRect();
 
   descriptionList.style.transition = "none";
   descriptionList.style.transform = `translateX(${

@@ -8,7 +8,7 @@ const galleryItems = [
   {
     original:
       "https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg",
-    description: "Container Haulage Freight",
+    description: "Container shipping",
     id: 1,
   },
   {
@@ -32,13 +32,13 @@ const galleryItems = [
   {
     original:
       "https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg",
-    description: "Mountain Lake Sailing",
+    description: "Lake Sailing",
     id: 5,
   },
   {
     original:
       "https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg",
-    description: "Alpine Spring Meadows",
+    description: "Alpine Meadows",
     id: 6,
   },
   {

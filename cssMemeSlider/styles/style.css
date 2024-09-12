@@ -26,10 +26,10 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
   font-style: normal;
   font-weight: 400;
-  background-color: #1e1e23;
+  background-color: #1e434c;
 }
 
 h1,
@@ -58,6 +58,8 @@ picture,
 video {
   display: block;
   width: 100%;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 input,
@@ -68,10 +70,34 @@ button {
   color: inherit;
 }
 
+img:hover {
+  transform: scale(1.05);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
 button {
   cursor: pointer;
 }
 
-/* .wrapper {
+.wrapper {
   display: flex;
-} */
+  flex-direction: column;
+  gap: 7vmin;
+}
+
+@media screen and (width > 768px) {
+  body {
+    font-size: 4rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

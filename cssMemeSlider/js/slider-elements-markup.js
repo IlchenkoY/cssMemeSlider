@@ -1,7 +1,5 @@
 import galleryItems from "../data/pets-data.js";
 
-console.log(galleryItems);
-
 export const petsList = document.querySelector(".slider");
 
 petsList.insertAdjacentHTML("afterbegin", createSliderMarkup(galleryItems));
@@ -11,8 +9,14 @@ function createSliderMarkup() {
     <ul class="slider__list">${createSliderElementsListMarkup(
       galleryItems
     )}</ul>
-    <ul class="controls">${createControlsListMarkup(galleryItems)}</ul>
-    <ul class="description">${createDescriptionListMarkup(galleryItems)}</ul>`;
+    <div class="wrapper">
+      <ul class="controls">${createControlsListMarkup(galleryItems)}</ul>
+      <div class="description__wrapper">
+        <ul class="description">${createDescriptionListMarkup(
+          galleryItems
+        )}</ul>
+      </div>
+    </div>`;
 }
 
 function createSliderElementsListMarkup(galleryItems) {

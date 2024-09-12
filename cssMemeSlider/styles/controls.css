@@ -14,11 +14,11 @@
 }
 
 .controls__button {
-  width: 3vmin;
-  height: 3vmin;
+  width: 4vmin;
+  height: 4vmin;
   border-radius: 50%;
-  border: 0.5vmin solid #0056b3;
-  background-color: #0056b3;
+  border: 0.5vmin solid #9b4f0f;
+  background-color: #9b4f0f;
   transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -35,4 +35,16 @@
 .controls__item:focus .controls__button {
   border-color: aliceblue;
   background-color: aliceblue;
+}
+
+@media screen and (width > 768px) {
+  .controls__item {
+    padding: 1vmin;
+  }
+
+  .controls__button {
+    width: 1.7vmin;
+    height: 1.7vmin;
+    border: 0.3vmin solid #9b4f0f;
+  }
 }
