@@ -3,9 +3,7 @@
 @import url("./controls.css");
 @import url("./description.css");
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
