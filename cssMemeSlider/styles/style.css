@@ -1,0 +1,105 @@
+@import url("./container.css");
+@import url("./slider.css");
+@import url("./controls.css");
+@import url("./description.css");
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1vmin;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #1e434c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img,
+picture,
+video {
+  display: block;
+  width: 100%;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+img:hover {
+  transform: scale(1.05);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7vmin;
+}
+
+@media screen and (width > 768px) {
+  body {
+    font-size: 4rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+
+input {
+  display: none;
+}

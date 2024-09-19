@@ -1,0 +1,22 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 7vmin;
+  max-width: 99rem;
+  overflow: hidden;
+  margin: 0 7%;
+}
+
+.slider__list {
+  width: 100%;
+  display: flex;
+  transition: transform 0.8s ease;
+}
+
+.slider__item {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  min-width: 100%;
+  border-radius: 5rem;
+  border: 1.5vmin solid rgb(85, 122, 142);
+}
