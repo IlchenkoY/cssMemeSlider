@@ -149,6 +149,11 @@ input#img-8:checked
   background-color: aliceblue;
 }
 
+.controls__button:active .controls__input {
+  border-color: #d7ae8d;
+  background-color: #d7ae8d;
+}
+
 @media screen and (width > 768px) {
   .controls__input {
     width: 1.7vmin;
