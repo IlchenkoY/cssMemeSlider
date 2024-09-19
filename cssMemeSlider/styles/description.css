@@ -11,6 +11,7 @@
 .description__item {
   min-width: calc(100% / 8);
   padding-left: 1rem;
+  transition: transform 1.2s ease;
 }
 
 @media screen and (width > 768px) {

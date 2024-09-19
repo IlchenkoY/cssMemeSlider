@@ -5,44 +5,152 @@
   gap: 0.5vmin;
 }
 
-.controls__item {
+.controls__button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1vmin;
   cursor: pointer;
+  padding: 0.5vmin;
 }
 
-.controls__button {
+.controls__input {
+  appearance: none;
   width: 4vmin;
   height: 4vmin;
   border-radius: 50%;
-  border: 0.5vmin solid #9b4f0f;
+  border: 0.6vmin solid #9b4f0f;
   background-color: #9b4f0f;
   transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
-.controls__item.active .controls__button {
+input#img-1:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(1)
+  .controls__button
+  .controls__input,
+input#img-2:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(2)
+  .controls__button
+  .controls__input,
+input#img-3:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(3)
+  .controls__button
+  .controls__input,
+input#img-4:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(4)
+  .controls__button
+  .controls__input,
+input#img-5:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(5)
+  .controls__button
+  .controls__input,
+input#img-6:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(6)
+  .controls__button
+  .controls__input,
+input#img-7:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(7)
+  .controls__button
+  .controls__input,
+input#img-8:checked
+  ~ .wrapper
+  .controls
+  .controls__item:nth-child(8)
+  .controls__button
+  .controls__input {
   background-color: transparent;
 }
 
-.controls__item.active:hover .controls__button,
-.controls__item.active:focus .controls__button {
-  background-color: transparent;
+input#img-1:checked ~ .slider__list,
+input#img-1:checked ~ .description {
+  transform: translateX(0);
 }
 
-.controls__item:hover .controls__button,
-.controls__item:focus .controls__button {
+input#img-2:checked ~ .slider__list,
+input#img-2:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-100%);
+}
+
+input#img-3:checked ~ .slider__list,
+input#img-3:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-200%);
+}
+
+input#img-4:checked ~ .slider__list,
+input#img-4:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-300%);
+}
+
+input#img-5:checked ~ .slider__list,
+input#img-5:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-400%);
+}
+
+input#img-6:checked ~ .slider__list,
+input#img-6:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-500%);
+}
+
+input#img-7:checked ~ .slider__list,
+input#img-7:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-600%);
+}
+
+input#img-8:checked ~ .slider__list,
+input#img-8:checked
+  ~ .wrapper
+  .description__wrapper
+  .description
+  .description__item {
+  transform: translateX(-700%);
+}
+
+.controls__button:hover .controls__input,
+.controls__button:focus .controls__input {
   border-color: aliceblue;
   background-color: aliceblue;
 }
 
 @media screen and (width > 768px) {
-  .controls__item {
-    padding: 1vmin;
-  }
-
-  .controls__button {
+  .controls__input {
     width: 1.7vmin;
     height: 1.7vmin;
     border: 0.3vmin solid #9b4f0f;

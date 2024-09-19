@@ -8,7 +8,9 @@
 }
 
 .slider__list {
+  width: 100%;
   display: flex;
+  transition: transform 0.8s ease;
 }
 
 .slider__item {
